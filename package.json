@@ -1,0 +1,29 @@
+{
+  "name": "helpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bulavackii/helpDesk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bulavackii/helpDesk/issues"
+  },
+  "homepage": "https://github.com/Bulavackii/helpDesk#readme",
+  "devDependencies": {
+    "@koa/cors": "^5.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^9.0.1"
+  }
+}

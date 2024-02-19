@@ -1,1 +1,1 @@
-# helpDesk
+![CI](https://github.com/Bulavackii/helpDesk/actions/workflows/CD.yml/badge.svg)
